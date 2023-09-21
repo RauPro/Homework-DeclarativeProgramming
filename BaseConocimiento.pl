@@ -257,3 +257,17 @@ conecta_con(intercepcion_19, intercepcion_21).
 conecta_con(intercepcion_19, centro_comercial_principe_pio).
 conecta_con(intercepcion_19, liceo_frances_de_madrid).
 
+conectados(Lugar1, Lugar2) :-
+    conecta_con(Lugar1, Lugar2);conecta_con(Lugar2, Lugar1).
+
+%definir visitado/1 como predicado dinamico para hacer un dfs
+:- dynamic visitado/1.
+
+ir_hacia(Lugar, Lugar) :- writeln(Lugar), nl, retractall(visitado(_)).
+
+ir_hacia(Lugar, LugarFinal) :-
+    not(visitado(Lugar)),
+    assert(visitado(Lugar)),
+    writeln(Lugar), nl,
+    conectados(Lugar, LugarIntermedio),
+    ir_hacia(LugarIntermedio, LugarFinal).
