@@ -63,16 +63,6 @@ conecta_con(44,6).
 conecta_con(5,40).
 conecta_con(40,daniel_hernandez_park).
 conecta_con(daniel_hernandez_park,43).
-conecta_con(43,plaza_el_carmen).
-conecta_con(43,centro_comercial_las_aguilas).
-conecta_con(centro_comercial_las_aguilas,45).
-conecta_con(45,nacional_academy_of_public_safety).
-conecta_con(nacional_of_public_safety,45).
-conecta_con(45,plaza_cafetalon).
-conecta_con(45,24).
-conecta_con(24,alberto_masferrer_centro_escolar_catolico).
-conecta_con(24,25).
-conecta_con(alberto_masferrer_centro_escolar_catolico,marcelino_garcia_flamenco_scholl).
 
 
 conectados(Lugar1, Lugar2) :-
