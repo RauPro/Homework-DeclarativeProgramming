@@ -2,6 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -353,9 +354,14 @@ public class MainLayout extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        showButtons();
+        if (!jTextField1.getText().isEmpty() && !jTextField2.getText().isEmpty()) {
+            showButtons();
+        } else {
+            JOptionPane.showMessageDialog(null, "Error al ingresar datos.");
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
     private Map<Integer, JButton> botonMap;
+
     /**
      * @param args the command line arguments
      */
