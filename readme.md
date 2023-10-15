@@ -25,4 +25,8 @@ Este proyecto integra Java y Prolog para visualizar rutas entre diferentes punto
 
 En la ruta generada, cada nombre o número corresponde a un botón en la interfaz de Java. Al recibir este arreglo, los botones correspondientes se vuelven visibles, mostrando así la ruta en el mapa.
 
+## Integrantes
 
+1. 00012119 - Raúl Ernesto Guillén Hernández
+2. 00005118 - Angel Gabriel Merlos Rodriguez
+3. 00107418 - Jose Ricardo Miranda Avalos
