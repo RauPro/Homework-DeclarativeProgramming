@@ -331,7 +331,7 @@ public class DeclarativaHomework extends javax.swing.JFrame {
         Boton46.setText("...");
         jPanel2.add(Boton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 700, 30, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\kira2\\Downloads\\practica6-Navegador\\Declatarive-Homework\\src\\MAPA SANTATECLA - Edited.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("src/MAPA SANTATECLA - Edited.png")); // NOI18N
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
